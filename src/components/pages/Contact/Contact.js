@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../../shared/Footer/Footer";
 import "./Contact.css";
 const Contact = () => {
   return (
