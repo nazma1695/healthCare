@@ -1,0 +1,12 @@
+.category-item {
+  border: 1px solid #eee;
+  padding: 25px;
+  text-align: left;
+  margin: 45px 0 0;
+  transition: 0.4s;
+}
+.category-item:hover {
+  overflow: hidden;
+  transform: scale(1.2);
+  transition: transform 1s;
+}

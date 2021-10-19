@@ -1,0 +1,32 @@
+.not-found {
+  margin: 100px;
+  text-align: center;
+}
+.back {
+  margin: 30px;
+}
+.not-found h1 {
+  font-size: 150px;
+  line-height: 150px;
+  font-weight: bold;
+}
+.not-found h3 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.btn-home {
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 14px 36px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border: 1px solid transparent;
+  background-color: #a47355;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.btn-stlye:hover {
+  background-color: rgb(34, 34, 34);
+}

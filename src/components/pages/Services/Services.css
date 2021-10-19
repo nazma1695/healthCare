@@ -1,0 +1,36 @@
+.services {
+  background-color: #fff5f3;
+}
+.service-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.banner-content {
+  background-image: url("../../../images/hero-img-10.png"),
+    linear-gradient(rgb(25 62 90 / 50%), rgb(76 54 9 / 50%));
+  height: 320px;
+  width: 100%;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 120px;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+/* Make it responsive */
+@media only screen and (max-width: 688px) {
+  .service-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media only screen and (min-width: 689px) and (max-width: 991px) {
+  .service-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

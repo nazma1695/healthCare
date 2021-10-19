@@ -1,0 +1,30 @@
+.footer {
+  background-color: #534846;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.footer h5 {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.footer ul li {
+  list-style: none;
+  padding: 10px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer ul {
+  padding: 0;
+  margin-top: 30px;
+}
+
+.footer-copyright {
+  border-top: 1px dashed #d2e7f8;
+}
+
+.footer-copyright p {
+  color: #fff;
+}

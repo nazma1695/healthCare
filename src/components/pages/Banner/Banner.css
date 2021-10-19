@@ -1,0 +1,41 @@
+.banner {
+  background-color: #fff5f3 !important;
+}
+.btn-style {
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 14px 36px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border: 1px solid transparent;
+  background-color: #a47355;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.btn-style:hover {
+  background-color: rgb(34, 34, 34);
+}
+.banner-text {
+  justify-content: center;
+  margin: 30px;
+}
+.banner-text h5 {
+  color: #a47355;
+  font-size: 18px !important;
+  font-weight: normal;
+}
+.banner-text h1 {
+  font-size: 43px;
+  color: #000;
+}
+.banner-text p {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(92, 92, 92);
+}
+.banner-img img {
+  height: 500px;
+  width: 600px;
+}
