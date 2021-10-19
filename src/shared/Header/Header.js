@@ -67,30 +67,6 @@ const Header = () => {
           </div>
         </nav>
       </div>
-      {/* <Navbar
-        bg="white"
-        variant="white"
-        sticky="top"
-        collapseOnSelect
-        expand="lg"
-      >
-        <Container>
-          <Link to="/home">
-            <img style={{ width: "150px" }} src={logo} alt="" />
-          </Link>
-          <Navbar.Toggle />
-          <Navbar.Collapse className="justify-content-end">
-            <Link to="/home">Home</Link>
-            <Link to="/shiping">Shiping</Link>
-            <Link to="/register">Register</Link>
-            <Link to="/login">Login</Link>
-            <Navbar.Text>
-              <span>{user.displayName} </span>
-              {user.email && <button onClick={logOut}>Log Out</button>}
-            </Navbar.Text>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar> */}
     </div>
   );
 };

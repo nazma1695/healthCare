@@ -12,6 +12,7 @@ import Blog from "./components/pages/Blog/blog";
 import Contact from "./components/pages/Contact/Contact";
 import Login from "./components/pages/Login/Login";
 import NotFound from "./components/pages/NotFound/NotFound";
+import Footer from "./shared/Footer/Footer";
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
               <NotFound></NotFound>
             </Route>
           </Switch>
+          <Footer></Footer>
         </BrowserRouter>
       </AuthProvider>
     </div>
